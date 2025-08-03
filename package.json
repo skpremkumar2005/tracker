@@ -1,0 +1,18 @@
+{
+    "name": "consistency-tracker-monorepo",
+    "version": "1.0.0",
+    "description": "Root package for the Consistency Tracker project.",
+    "main": "index.js",
+    "scripts": {
+      "install-all": "npm install && (cd server && npm install) && (cd client && npm install)",
+      "dev": "concurrently \"npm:server\" \"npm:client\"",
+      "server": "npm start --prefix server",
+      "client": "npm start --prefix client"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "concurrently": "^8.2.2"
+    }
+  }
