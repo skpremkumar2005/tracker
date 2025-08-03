@@ -1,0 +1,19 @@
+# Note: Rename this file to .env and place it in the /server directory
+
+# Server Configuration
+PORT=5001
+
+# MongoDB Connection
+MONGO_URI=mongodb://localhost:27017/consistency-tracker
+
+# JWT
+JWT_EXPIRES_IN=1d
+
+# Email (Nodemailer) - Use a service like Mailtrap or SendGrid
+EMAIL_HOST=smtp.mailtrap.io
+EMAIL_PORT=2525
+EMAIL_USER=skpremkumarsellamuthu@gmail.com
+EMAIL_PASS=gmpm wqex rzyh nlxp
+EMAIL_FROM=Tracker <skpremkumarsellamuthu@gmail.com >
+
+# AI Service
